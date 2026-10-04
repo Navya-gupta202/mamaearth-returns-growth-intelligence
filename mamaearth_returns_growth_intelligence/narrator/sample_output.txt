@@ -1,0 +1,11 @@
+Situation
+
+The cleaned order dataset records revenue of ₹97,358.30. Return behavior differs materially by payment method: COD is at 44.4%, compared with CARD at 14.7% and UPI at 18.9%.
+
+Complication
+
+The return risk is concentrated rather than uniform. The highest-risk segment is COD in Tier-2 cities at 54.5%. The raw-to-cleaned revenue reconciliation also identifies ₹2,501.90 attributable to five duplicate orders, so operational reporting should use the deduplicated dataset. In the time series, January appears to lead at ₹29,582.10, but that apparent peak is inflated by the flagged bulk orders.
+
+Resolution
+
+Prioritize investigation of COD orders in Tier-2 cities and use the cleaned pipeline as the reporting baseline. After the two quantity outliers are excluded, 2026-03 is the true peak month with revenue of ₹20,318.90. This corrected view gives regional operations and finance a more reliable basis for return-reduction actions and monthly performance decisions.
